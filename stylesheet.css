@@ -1,0 +1,198 @@
+# sample
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを記述してください */
+.header {
+  background-color:#2f5167;
+  opacity: 0.95;
+  color: #fff;
+  height: 90px;
+  width: 100%;
+  position:fixed;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list {
+  float: left;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 60px;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0.6;
+}
+
+.header-list li:hover {
+  opacity: 1;
+}
+
+.sub-main {
+  padding: 50px 80px;
+}
+.copy-container {
+  background-image: url(img/chemical.jpg);
+  background-size: cover;
+  height: 600px;
+}
+.copy-container h1 {
+  padding-top: 150px;
+  padding-left: 50px;
+  font-size: 100px;
+  color: white;
+  opacity: 0.8;
+}
+
+.copy-container h2 {
+  font-size: 40px;
+  padding-left: 50px;
+  color: white;
+  opacity: 0.8;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents-programing {
+  height: 250px;
+  margin-top: 100px;
+}
+
+.section-title-p {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents-item-p {
+  float: left;
+  margin-right: 200px;
+
+
+}
+
+.contents-item-p img{
+  height: 150px;
+  width: 150px;
+}
+
+.contents-item-p a{
+  font-size: 20px;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  background-color:#2f5167;
+  color: white;
+  border-radius: 50px;
+
+}
+
+.contents-tool {
+  height: 250px;
+  margin-top: 100px;
+}
+.section-title-t {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.contents-item-t {
+  float: left;
+  margin-right: 200px;
+
+}
+
+.contents-item-t img{
+  height: 150px;
+  width: 150px;
+}
+
+.contents-item-t a{
+  font-size: 20px;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  background-color:#2f5167;
+  color: white;
+  border-radius: 50px;
+
+}
+.contents-book {
+  height: 250px;
+  margin-top: 100px;
+}
+.section-title-b {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.contents-item-b {
+  float: left;
+  margin-right: 200px;
+
+}
+
+.contents-item-b img{
+  height: 200px;
+  width: 150px;
+}
+
+.contents-item-b a{
+  font-size: 20px;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  background-color:#2f5167;
+  color: white;
+  border-radius: 50px;
+}
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
